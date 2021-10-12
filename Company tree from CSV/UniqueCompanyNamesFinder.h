@@ -1,5 +1,5 @@
-#pragma once
 #include "Employee.h"
+
 class UniqueCompanyNamesFinder
 {
 public:

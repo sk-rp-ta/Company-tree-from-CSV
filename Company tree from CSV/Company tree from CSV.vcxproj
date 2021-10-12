@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Employee.cpp" />
+    <ClCompile Include="FileReader.cpp" />
+    <ClCompile Include="Printer.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="UniqueCompanyNamesFinder.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Employee.h" />
+    <ClInclude Include="FileReader.h" />
+    <ClInclude Include="Printer.h" />
+    <ClInclude Include="UniqueCompanyNamesFinder.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -138,23 +151,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="CSVFile.cpp" />
-    <ClCompile Include="DependencyCreator.cpp" />
-    <ClCompile Include="Employee.cpp" />
-    <ClCompile Include="FileReader.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="Printer.cpp" />
-    <ClCompile Include="UniqueCompanyNamesFinder.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="CSVFile.h" />
-    <ClInclude Include="DependencyCreator.h" />
-    <ClInclude Include="Employee.h" />
-    <ClInclude Include="FileReader.h" />
-    <ClInclude Include="Printer.h" />
-    <ClInclude Include="UniqueCompanyNamesFinder.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

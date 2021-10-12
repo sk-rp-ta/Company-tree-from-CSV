@@ -1,11 +1,9 @@
 #pragma once
 #include "Employee.h"
 
-#include <iostream>
 #include <fstream>
 #include <string>
 #include <sstream>
-#include <vector>
 
 class FileReader
 {

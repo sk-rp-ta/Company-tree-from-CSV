@@ -1,4 +1,3 @@
-#pragma once
 #include "FileReader.h"
 #include "Printer.h"
 #include "UniqueCompanyNamesFinder.h"
